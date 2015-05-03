@@ -35,7 +35,7 @@ require_once realpath(dirname(__FILE__) . '/../src/Google/autoload.php');
  ************************************************/
 $client = new Google_Client();
 $client->setApplicationName("Client_Library_Examples");
-$apiKey = "<YOUR_API_KEY>"; // Change this line.
+$apiKey = "AIzaSyArfxu3cdEzasMc85GssxH5Z17uX6Q4baU"; // Change this line.
 // Warn if the API key isn't changed.
 if (strpos($apiKey, "<") !== false) {
   echo missingApiKeyWarning();
