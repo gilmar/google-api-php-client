@@ -4,3 +4,4 @@ composer.lock
 vendor
 examples/testfile-small.txt
 examples/testfile.txt
+examples/*.p12
